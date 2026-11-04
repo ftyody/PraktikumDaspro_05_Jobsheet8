@@ -10,11 +10,22 @@ public class Triangle05 {
             int j = 0;
             while (j < i) {
                 System.out.print("*");
-                j++;   
+                j++;
             }
             i++;
             System.out.println();
         }
+        i=n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            i--;
+            System.out.println();
+        }
+
         sc.close();
     }
 }

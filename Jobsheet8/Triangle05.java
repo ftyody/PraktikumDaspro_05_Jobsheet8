@@ -5,17 +5,7 @@ public class Triangle05 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukan nilai n: ");
         int n = sc.nextInt();
-        int i = 1;
-        while (i <= n) {
-            int j = 0;
-            while (j < i) {
-                System.out.print("*");
-                j++;
-            }
-            i++;
-            System.out.println();
-        }
-        i=n;
+        int i=n;
         while (i >= 1) {
             int j = 0;
             while (j < i) {
